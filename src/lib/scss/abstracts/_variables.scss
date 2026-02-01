@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+/* Backgrounds */
+$bg-main: #0a0f1e; // Fond principal
+$bg-secondary: #1a2035; // Sections secondaires
+$bg-glass: #161b2e; // Cartes (glassmorphism)
+$bg-nav: #0d1225; // Nav
+
+/* Accents / Néons */
+$accent-cyan: #00f5ff; // Accent principal (CTA, status, labels)
+$accent-violet: #9d50ff; // Accent secondaire
+$border-cyber: #1e2640; // Bordures, grille, contours
+
+/* Typography */
+$text-title: #ffffff; // Titres
+$text-body: #b0b9d8; // Texte courant
+$text-code: $accent-cyan; // Code / labels mono
+
+/* Font */
+$font-primary: 'Rubik', sans-serif;
+
+/* Font weight */
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+/* Font sizes */
+$font-size-xs: 0.75rem; // 12px
+$font-size-sm: 0.875rem; // 14px
+$font-size-md: 1rem; // 16px (base)
+$font-size-lg: 1.125rem; // 18px
+$font-size-xl: 1.25rem; // 20px
+$font-size-2xl: 1.5rem; // 24px
+$font-size-3xl: 1.875rem; // 30px
+$font-size-4xl: 2.25rem; // 36px
+$font-size-5xl: 3rem; // 48px

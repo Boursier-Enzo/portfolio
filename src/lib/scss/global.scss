@@ -1,0 +1,12 @@
+@use 'abstracts/' as *;
+@use 'reset';
+
+body {
+	font-family: $font-primary;
+	font-size: $font-size-md;
+	font-weight: $font-weight-regular;
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(/img/bg_portfolio.svg), linear-gradient(135deg, $bg-secondary, $bg-main);
+	background-repeat: repeat;
+}
