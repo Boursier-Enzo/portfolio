@@ -11,7 +11,7 @@
 	let links = $state([
 		{
 			active: false,
-			name: 'project'
+			name: 'projects'
 		},
 		{
 			active: false,
