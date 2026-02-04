@@ -15,11 +15,11 @@
 		},
 		{
 			active: false,
-			name: 'experience'
+			name: 'experiences'
 		},
 		{
 			active: false,
-			name: 'resume'
+			name: 'contact'
 		}
 	]);
 

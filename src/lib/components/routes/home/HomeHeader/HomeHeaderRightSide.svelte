@@ -120,6 +120,7 @@
 
 		@include md {
 			width: 80%;
+			height: auto;
 			margin-top: 5rem;
 			justify-content: center;
 		}
@@ -221,6 +222,12 @@
 							}
 
 							@media screen and (max-width: (525px)) {
+								font-size: 0.75rem;
+							}
+							@media screen and (max-width: (453px)) {
+								font-size: 0.65rem;
+							}
+							@media screen and (max-width: (404px)) {
 								font-size: 0.5rem;
 							}
 						}
@@ -236,8 +243,17 @@
 						width: 7.5rem;
 
 						@media screen and (max-width: (525px)) {
-							font-size: 0.6rem;
-							width: 4.5rem;
+							font-size: 0.75rem;
+							width: 5.8rem;
+						}
+
+						@media screen and (max-width: (453px)) {
+							font-size: 0.65rem;
+							width: 5rem;
+						}
+						@media screen and (max-width: (404px)) {
+							font-size: 0.5rem;
+							width: 3.9rem;
 						}
 					}
 
@@ -248,6 +264,15 @@
 						animation: terminal_output 1.5s infinite;
 
 						@media screen and (max-width: (525px)) {
+							width: 0.45rem;
+							height: 0.9rem;
+						}
+
+						@media screen and (max-width: (453px)) {
+							width: 0.4rem;
+							height: 0.8rem;
+						}
+						@media screen and (max-width: (404px)) {
 							width: 0.3rem;
 							height: 0.6rem;
 						}

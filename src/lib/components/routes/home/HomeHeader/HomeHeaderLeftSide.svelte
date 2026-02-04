@@ -60,6 +60,7 @@
 		@include md {
 			margin-top: 10rem;
 			width: 80%;
+			height: auto;
 			align-items: center;
 		}
 

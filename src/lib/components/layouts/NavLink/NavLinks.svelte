@@ -18,17 +18,28 @@
 	</li>
 {/each}
 <li>
-	<a class="button" href="#contact">
-		<svg class="button__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#00f5ff">
-			<path
-				d="M23.954,5.542,15.536,13.96a5.007,5.007,0,0,1-7.072,0L.046,5.542C.032,5.7,0,5.843,0,6V18a5.006,5.006,0,0,0,5,5H19a5.006,5.006,0,0,0,5-5V6C24,5.843,23.968,5.7,23.954,5.542Z"
-			/>
-			<path
-				d="M14.122,12.546l9.134-9.135A4.986,4.986,0,0,0,19,1H5A4.986,4.986,0,0,0,.744,3.411l9.134,9.135A3.007,3.007,0,0,0,14.122,12.546Z"
-			/>
-		</svg>
-		<span class="button__text">Hire Me</span>
-	</a>
+	<button
+		class="button"
+		onclick={window.open('/img/CV Boursier Enzo AlternanceStage V5.pdf', '_blank')}
+	>
+		<svg class="button__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+			><path
+				d="M416 221.25V416a48 48 0 01-48 48H144a48 48 0 01-48-48V96a48 48 0 0148-48h98.75a32 32 0 0122.62 9.37l141.26 141.26a32 32 0 019.37 22.62z"
+				fill="none"
+				stroke="currentColor"
+				stroke-linejoin="round"
+				stroke-width="32"
+			/><path
+				d="M256 56v120a32 32 0 0032 32h120M176 288h160M176 368h160"
+				fill="none"
+				stroke="currentColor"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="32"
+			/></svg
+		>
+		<span class="button__text">Resume</span>
+	</button>
 </li>
 
 <style lang="scss">
@@ -54,7 +65,7 @@
 		transition: box-shadow 0.5s ease-in-out;
 		white-space: nowrap;
 		gap: 0.5rem;
-
+		cursor: pointer;
 		&__icon {
 			width: 1rem;
 			height: 1rem;

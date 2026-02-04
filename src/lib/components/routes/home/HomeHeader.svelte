@@ -17,6 +17,7 @@
 		@include md {
 			align-items: center;
 			flex-direction: column;
+			height: auto;
 		}
 	}
 </style>
