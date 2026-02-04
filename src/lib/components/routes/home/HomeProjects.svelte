@@ -6,7 +6,7 @@
 	<h2>Projects</h2>
 	<div class="projects__card-wrapper">
 		<Card
-			imgSrc="/img/projects/portfolio_v1/Capture d’écran 2026-02-04 à 11.22.24.png"
+			imgSrc="/img/projects/portfolio_v1/portfolio_1.png"
 			imgAlt="photo"
 			title="DevPortfolio v1"
 			content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium, libero ut imperdiet efficitur, est risus laoreet est, vitae suscipit nisi tortor ut ligula. "
@@ -15,7 +15,7 @@
 			liveUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
 		/>
 		<Card
-			imgSrc="/img/projects/portfolio_v1/Capture d’écran 2026-02-04 à 11.22.24.png"
+			imgSrc="/img/projects/portfolio_v1/portfolio_1.png"
 			imgAlt="photo"
 			title="DevPortfolio v1"
 			content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium, libero ut imperdiet efficitur, est risus laoreet est, vitae suscipit nisi tortor ut ligula. "
@@ -24,7 +24,7 @@
 			liveUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
 		/>
 		<Card
-			imgSrc="/img/projects/portfolio_v1/Capture d’écran 2026-02-04 à 11.22.24.png"
+			imgSrc="/img/projects/portfolio_v1/portfolio_1.png"
 			imgAlt="photo"
 			title="DevPortfolio v1"
 			content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium, libero ut imperdiet efficitur, est risus laoreet est, vitae suscipit nisi tortor ut ligula. "
@@ -49,6 +49,10 @@
 		& h2 {
 			font-size: $font-size-5xl;
 			color: $text-code;
+
+			@media screen and (max-width: (525px)) {
+				font-size: $font-size-2xl;
+			}
 		}
 
 		&__card-wrapper {
@@ -61,7 +65,7 @@
 			align-items: center;
 			justify-content: center;
 
-			@media screen and (max-width: (1439px)) {
+			@media screen and (jmax-width: (1439px)) {
 				max-width: 55rem;
 			}
 		}
