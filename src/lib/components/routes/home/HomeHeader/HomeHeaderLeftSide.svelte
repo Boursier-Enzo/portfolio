@@ -60,6 +60,7 @@
 		@include md {
 			margin-top: 10rem;
 			width: 80%;
+			max-width: 100%;
 			height: auto;
 			align-items: center;
 		}
@@ -88,7 +89,7 @@
 
 			@media screen and (max-width: (525px)) {
 				font-size: $font-size-2xl;
-				width: 23rem;
+				max-width: 23rem;
 			}
 		}
 
