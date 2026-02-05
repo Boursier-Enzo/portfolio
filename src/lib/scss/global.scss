@@ -1,6 +1,12 @@
 @use 'abstracts/' as *;
 @use 'reset';
 
+html {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
 body {
 	font-family: $font-primary;
 	font-size: $font-size-md;
@@ -9,4 +15,5 @@ body {
 	min-height: 100vh;
 	background-image: url(/img/bg_portfolio.svg), linear-gradient(135deg, $bg-secondary, $bg-main);
 	background-repeat: repeat;
+	overflow-x: hidden;
 }
