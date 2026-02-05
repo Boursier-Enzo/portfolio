@@ -73,7 +73,8 @@
 		}
 
 		&__main-title {
-			width: 35rem;
+			width: 50%;
+			max-width: 100%;
 			font-size: $font-size-5xl;
 			font-weight: $font-weight-bold;
 			color: $text-title;
