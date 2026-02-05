@@ -65,7 +65,7 @@
 			align-items: center;
 			justify-content: center;
 
-			@media screen and (jmax-width: (1439px)) {
+			@media screen and (max-width: (1439px)) {
 				max-width: 55rem;
 			}
 		}
