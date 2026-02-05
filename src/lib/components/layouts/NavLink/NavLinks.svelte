@@ -66,13 +66,16 @@
 		white-space: nowrap;
 		gap: 0.5rem;
 		cursor: pointer;
+
 		&__icon {
 			width: 1rem;
 			height: 1rem;
 		}
 
-		&:hover {
-			box-shadow: 0 0 1rem $accent-cyan;
+		@media (hover: hover) {
+			&:hover {
+				box-shadow: 0 0 1rem $accent-cyan;
+			}
 		}
 	}
 </style>
