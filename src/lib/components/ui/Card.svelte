@@ -66,9 +66,11 @@
 			height: 30rem;
 		}
 
-		&:hover {
-			transform: scale(1.05);
-			box-shadow: 0 0 0.8rem $accent-cyan;
+		@media (hover: hover) {
+			&:hover {
+				transform: scale(1.05);
+				box-shadow: 0 0 0.8rem $accent-cyan;
+			}
 		}
 
 		& > *:not(img) {

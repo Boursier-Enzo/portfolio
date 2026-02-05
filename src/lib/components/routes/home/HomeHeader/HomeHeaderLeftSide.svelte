@@ -182,10 +182,13 @@
 					height: 1rem;
 				}
 
-				&:hover {
-					box-shadow: 0 0 1rem $accent-cyan;
+				@media (hover: hover) {
+					&:hover {
+						box-shadow: 0 0 1rem $accent-cyan;
+					}
 				}
 			}
+
 			&__contact {
 				display: flex;
 				align-items: center;
@@ -203,12 +206,13 @@
 					height: 1rem;
 				}
 
-				&:hover {
-					box-shadow: 0 0 1rem $accent-cyan;
+				@media (hover: hover) {
+					&:hover {
+						box-shadow: 0 0 1rem $accent-cyan;
+					}
 				}
 			}
 		}
-
 		&__work-status {
 			display: flex;
 			align-items: center;
