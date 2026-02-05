@@ -182,10 +182,8 @@
 					height: 1rem;
 				}
 
-				@media (hover: hover) {
-					&:hover {
-						box-shadow: 0 0 1rem $accent-cyan;
-					}
+				&:hover {
+					box-shadow: 0 0 1rem $accent-cyan;
 				}
 			}
 			&__contact {
@@ -205,10 +203,8 @@
 					height: 1rem;
 				}
 
-				@media (hover: hover) {
-					&:hover {
-						box-shadow: 0 0 1rem $accent-cyan;
-					}
+				&:hover {
+					box-shadow: 0 0 1rem $accent-cyan;
 				}
 			}
 		}
