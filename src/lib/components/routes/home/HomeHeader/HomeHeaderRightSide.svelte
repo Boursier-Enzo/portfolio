@@ -125,27 +125,15 @@
 			justify-content: center;
 		}
 		&__code-window {
+			@include shadow(4deg, 0rem, 0.3rem);
 			width: 28rem;
 			padding-bottom: 1rem;
 			margin-right: 3rem;
-			position: relative;
 			border-radius: 1rem;
 			background-color: $bg-secondary;
 
 			@include md {
 				margin-right: 0;
-			}
-
-			&::before {
-				content: '';
-				width: 100%;
-				height: 100%;
-				position: absolute;
-				z-index: -1;
-				transform: rotate(4deg) scale(0.99);
-				filter: blur(0.3rem);
-				opacity: 0.2;
-				background: $accent-cyan;
 			}
 
 			&__nav {

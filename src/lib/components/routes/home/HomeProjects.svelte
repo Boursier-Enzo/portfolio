@@ -1,8 +1,8 @@
 <script>
-	import Card from '$lib/components/ui/Card.svelte';
+	import Card from '../../ui/Card.svelte';
 </script>
 
-<div id="projects" class="projects">
+<section id="projects" class="projects">
 	<h2>Projects</h2>
 	<div class="projects__card-wrapper">
 		<Card
@@ -33,7 +33,7 @@
 			liveUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
 		/>
 	</div>
-</div>
+</section>
 
 <style lang="scss">
 	.projects {
@@ -58,16 +58,12 @@
 		&__card-wrapper {
 			width: 90%;
 			height: 50%;
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+			display: flex;
+			flex-wrap: wrap;
 			gap: 3rem;
 			justify-items: center;
 			align-items: center;
 			justify-content: center;
-
-			@media screen and (max-width: (1439px)) {
-				max-width: 55rem;
-			}
 		}
 	}
 </style>

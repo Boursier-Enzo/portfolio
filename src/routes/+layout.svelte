@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Nav from '$lib/components/layouts/Nav.svelte';
 	import '$lib/scss/global.scss';
+	import Nav from '$lib/components/layouts/Nav.svelte';
 
 	let { children } = $props();
 </script>

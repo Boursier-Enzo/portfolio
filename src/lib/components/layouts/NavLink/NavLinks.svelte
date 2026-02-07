@@ -20,8 +20,9 @@
 <li>
 	<button
 		class="button"
-		onclick={window.open('/img/CV Boursier Enzo AlternanceStage V5.pdf', '_blank')}
+		onclick={() => window.open('/img/CV Boursier Enzo AlternanceStage V5.pdf', '_blank')}
 	>
+		<span class="button__text">Resume</span>
 		<svg class="button__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
 			><path
 				d="M416 221.25V416a48 48 0 01-48 48H144a48 48 0 01-48-48V96a48 48 0 0148-48h98.75a32 32 0 0122.62 9.37l141.26 141.26a32 32 0 019.37 22.62z"
@@ -38,7 +39,6 @@
 				stroke-width="32"
 			/></svg
 		>
-		<span class="button__text">Resume</span>
 	</button>
 </li>
 

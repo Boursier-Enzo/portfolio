@@ -3,10 +3,10 @@
 	import HomeHeaderRightSide from './HomeHeader/HomeHeaderRightSide.svelte';
 </script>
 
-<header class="hero">
+<section class="hero">
 	<HomeHeaderLeftSide />
 	<HomeHeaderRightSide />
-</header>
+</section>
 
 <style lang="scss">
 	.hero {
