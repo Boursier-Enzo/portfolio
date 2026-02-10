@@ -13,6 +13,7 @@
 			stacks={['HTML', 'SCSS', 'JS']}
 			githubUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
 			liveUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
+			date="00/11/22"
 		/>
 		<Card
 			imgSrc="/img/projects/portfolio_v1/portfolio_1.png"
@@ -22,6 +23,7 @@
 			stacks={['HTML', 'SCSS', 'JS']}
 			githubUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
 			liveUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
+			date="00/11/22"
 		/>
 		<Card
 			imgSrc="/img/projects/portfolio_v1/portfolio_1.png"
@@ -31,6 +33,7 @@
 			stacks={['HTML', 'SCSS', 'JS']}
 			githubUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
 			liveUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
+			date="00/11/22"
 		/>
 	</div>
 </section>

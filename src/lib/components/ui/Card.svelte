@@ -1,5 +1,5 @@
 <script lang="ts">
-	let { imgSrc, imgAlt, title, content, stacks, githubUrl, liveUrl } = $props();
+	let { imgSrc, imgAlt, title, content, stacks, githubUrl, liveUrl, date } = $props();
 </script>
 
 <div class="card">
@@ -45,6 +45,7 @@
 			><span>Live Demo</span></a
 		>
 	</ul>
+	<p>{date}</p>
 </div>
 
 <style lang="scss">
@@ -63,7 +64,7 @@
 
 		@media screen and (max-width: (525px)) {
 			width: 20rem;
-			height: 30rem;
+			height: 32rem;
 		}
 
 		@media (hover: hover) {

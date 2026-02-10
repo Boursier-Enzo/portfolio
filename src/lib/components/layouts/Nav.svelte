@@ -15,7 +15,7 @@
 		},
 		{
 			active: false,
-			name: 'experiences'
+			name: 'store'
 		},
 		{
 			active: false,
