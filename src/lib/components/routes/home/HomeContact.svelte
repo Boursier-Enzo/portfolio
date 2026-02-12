@@ -860,6 +860,7 @@
 		max-height: 100vh;
 		scroll-margin-top: 2rem;
 		margin-top: 15rem;
+		margin-bottom: 5rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -868,7 +869,7 @@
 
 		@include lg {
 			scroll-margin-top: 8rem;
-			margin-bottom: 5rem;
+			margin-bottom: 4rem;
 		}
 
 		& h2 {

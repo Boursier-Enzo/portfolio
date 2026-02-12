@@ -9,7 +9,7 @@
 		</p>
 	</div>
 	<div class="left-side__button">
-		<a class="left-side__button__project" href="#project"
+		<a class="left-side__button__project" href="#projects"
 			><span class="left-side__button__project__text">VIEW PROJECT</span>
 			<svg
 				class="left-side__button__project__icon"
