@@ -8,32 +8,12 @@
 		<Card
 			imgSrc="/img/projects/portfolio_v1/portfolio_1.png"
 			imgAlt="photo"
-			title="DevPortfolio v1"
-			content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium, libero ut imperdiet efficitur, est risus laoreet est, vitae suscipit nisi tortor ut ligula. "
-			stacks={['HTML', 'SCSS', 'JS']}
-			githubUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
-			liveUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
-			date="00/11/22"
-		/>
-		<Card
-			imgSrc="/img/projects/portfolio_v1/portfolio_1.png"
-			imgAlt="photo"
-			title="DevPortfolio v1"
-			content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium, libero ut imperdiet efficitur, est risus laoreet est, vitae suscipit nisi tortor ut ligula. "
-			stacks={['HTML', 'SCSS', 'JS']}
-			githubUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
-			liveUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
-			date="00/11/22"
-		/>
-		<Card
-			imgSrc="/img/projects/portfolio_v1/portfolio_1.png"
-			imgAlt="photo"
-			title="DevPortfolio v1"
-			content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pretium, libero ut imperdiet efficitur, est risus laoreet est, vitae suscipit nisi tortor ut ligula. "
-			stacks={['HTML', 'SCSS', 'JS']}
-			githubUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
-			liveUrl="https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3/1604646-creez-un-lien-hypertexte-en-html"
-			date="00/11/22"
+			title="EnzoDev v1"
+			content="This is the first version of my portfolio, a space to explore my web projects and technical experiments."
+			stacks={['HTML', 'SCSS', 'SVELTE']}
+			githubUrl="https://github.com/Boursier-Enzo/portfolio.git"
+			liveUrl="https://portfolio-boursier-enzo.netlify.app/"
+			date="12/02/2026"
 		/>
 	</div>
 </section>
@@ -48,6 +28,9 @@
 		align-items: center;
 		flex-direction: column;
 		gap: 3rem;
+		@include md {
+			margin-top: 15rem;
+		}
 
 		& h2 {
 			font-size: $font-size-5xl;

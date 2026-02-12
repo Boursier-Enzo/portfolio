@@ -15,10 +15,6 @@
 		},
 		{
 			active: false,
-			name: 'store'
-		},
-		{
-			active: false,
 			name: 'contact'
 		}
 	]);
@@ -66,7 +62,7 @@
 		</a>
 	</div>
 	<ul class="nav__list">
-		<NavLinks {links} {handleClick} />
+		<NavLinks {links} {handleClick} bind:burgerState />
 	</ul>
 
 	<div class="nav__burger">
@@ -106,7 +102,7 @@
 		}
 
 		&__list {
-			width: 30%;
+			width: 22%;
 			display: flex;
 			justify-content: space-between;
 			align-items: center;

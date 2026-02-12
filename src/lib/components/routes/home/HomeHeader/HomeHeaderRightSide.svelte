@@ -49,6 +49,11 @@
 
 						<ul class="code__tab">
 							<li class="code__tab__line">
+								<span class="code__green mr-0">'JavaScript'</span>,
+							</li>
+						</ul>
+						<ul class="code__tab">
+							<li class="code__tab__line">
 								<span class="code__green mr-0">'Symfony'</span>,
 							</li>
 						</ul>
@@ -60,11 +65,6 @@
 						<ul class="code__tab">
 							<li class="code__tab__line">
 								<span class="code__green mr-0">'Java'</span>,
-							</li>
-						</ul>
-						<ul class="code__tab">
-							<li class="code__tab__line">
-								<span class="code__green mr-0">'SQL'</span>,
 							</li>
 						</ul>
 					</ul>

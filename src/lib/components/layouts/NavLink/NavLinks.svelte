@@ -7,7 +7,7 @@
 {#each links as link, i (link.name)}
 	<li>
 		<a
-			class={`link ${link.active && 'link--active'}`}
+			class={`link ${link.active}`}
 			onclick={() => {
 				handleClick(i);
 				burgerState = false;
@@ -46,10 +46,6 @@
 	.link {
 		color: $text-body;
 		text-decoration: none;
-
-		&--active {
-			color: $text-title;
-		}
 	}
 
 	.button {
