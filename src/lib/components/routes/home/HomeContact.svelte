@@ -857,9 +857,9 @@
 <style lang="scss">
 	.contact {
 		width: 100%;
-		min-height: 100vh;
+		max-height: 100vh;
 		scroll-margin-top: 2rem;
-		margin-top: 2rem;
+		margin-top: 15rem;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -868,12 +868,7 @@
 
 		@include lg {
 			scroll-margin-top: 8rem;
-			margin-top: 5rem;
 			margin-bottom: 5rem;
-		}
-
-		@media screen and (max-width: (525px)) {
-			margin-top: 0;
 		}
 
 		& h2 {

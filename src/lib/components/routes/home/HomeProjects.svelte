@@ -21,7 +21,7 @@
 <style lang="scss">
 	.projects {
 		width: 100%;
-		min-height: 100vh;
+		max-height: 100vh;
 		scroll-margin-top: 8rem;
 		margin-top: 5rem;
 		display: flex;
