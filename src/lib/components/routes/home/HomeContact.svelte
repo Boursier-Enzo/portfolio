@@ -682,7 +682,6 @@
 					x="200"
 					y="200"
 					viewBox="0 0 700 700"
-					style="enable-background:new 0 0 700 700;"
 					xml:space="preserve"
 					width="448"
 					height="448"
@@ -699,7 +698,6 @@
 					x="200"
 					y="200"
 					viewBox="0 0 700 700"
-					style="enable-background:new 0 0 700 700;"
 					xml:space="preserve"
 					width="448"
 					height="448"
@@ -716,7 +714,6 @@
 					x="1352"
 					y="200"
 					viewBox="0 0 700 700"
-					style="enable-background:new 0 0 700 700;"
 					xml:space="preserve"
 					width="448"
 					height="448"
@@ -733,7 +730,6 @@
 					x="1352"
 					y="200"
 					viewBox="0 0 700 700"
-					style="enable-background:new 0 0 700 700;"
 					xml:space="preserve"
 					width="448"
 					height="448"
@@ -750,7 +746,6 @@
 					x="200"
 					y="1352"
 					viewBox="0 0 700 700"
-					style="enable-background:new 0 0 700 700;"
 					xml:space="preserve"
 					width="448"
 					height="448"
@@ -767,7 +762,6 @@
 					x="200"
 					y="1352"
 					viewBox="0 0 700 700"
-					style="enable-background:new 0 0 700 700;"
 					xml:space="preserve"
 					width="448"
 					height="448"
@@ -941,7 +935,9 @@
 						color: $text-code;
 						gap: 1rem;
 						transition: box-shadow 0.5s ease-in-out;
-
+						font-size: $font-size-md;
+						font-weight: $font-weight-regular;
+						font-family: inherit;
 						@media screen and (max-width: (525px)) {
 							width: 15rem;
 						}
