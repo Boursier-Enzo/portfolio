@@ -15,7 +15,7 @@
 				enable-background="new 0 0 1147 1147"
 				xml:space="preserve"
 			>
-				<rect x="0" y="0" width="1147" height="1147" fill="rgb(255,255,255)" /><g
+				<rect x="0" y="0" width="1147" height="1147" fill="#1a2035" /><g
 					transform="translate(62,62)"
 					><g transform="translate(279,0) scale(0.31,0.31)"
 						><g transform="" style="fill: rgb(0, 245, 255);">
