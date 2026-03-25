@@ -20,7 +20,7 @@
 			imgAlt="photo ADéR.M"
 			title="ADéR.M"
 			content="A live website I designed, developed, and deployed on o2switch, including visual identity, project management, and team training."
-			stacks={['GESTION DE PROJET' , 'WORDPRESS', 'FORMATION']}
+			stacks={[ 'WORDPRESS', 'FORMATION']}
 			githubUrl=""
 			liveUrl="https://association-adermaroc.org/"
 			date="06/06/2025"
